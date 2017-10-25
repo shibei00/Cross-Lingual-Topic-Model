@@ -10,22 +10,22 @@ Bei Shi, Wai Lam, Lidong Bing and Yinqing Xu. [Detecting Common Discussion Topic
 4. nltk (>= 3.0.2)
 
 ## Data Format
-- It is in the folder of [input](https://github.com/shibei00/Cross-Lingual-Topic-Model/tree/master/input)
+- It is in the folder of [input](https://github.com/shibei00/Cross-Lingual-Topic-Model/tree/master/input).
 - There are 10 events in total. Each event includes Engilish train data, English test data, Chinese train data and Chinese test data. Each line represents a document in the event. We remove the punctuations and the stop words. For English comments, we also stem each word to its root form using Porter Stemmer (Porter, 1980). For the Chinese reader comments, we use the Jieba package to segment and remove Chinese stop words.
 - The detail of the data set is shown in the following Table. The number of comments includes both train data and test data.
 
-| Event Title                 | #English comments | Chinese comments |
-|-----------------------------|-------------------|------------------|
-| 1 MH370 flight accident     |              8608 |             5223 |
-| 2 ISIS in Iraq              |              6341 |             3263 |
-| 3 Ebola occurs              |              2974 |             1622 |
-| 4 Taiwan Crashed Plane      |              6780 |             2648 |
-| 5 iphone6 publish           |              5837 |             4352 |
-| 6 Shooting of Michael Brown |             17547 |             3693 |
-| 7 Charlie Hebdo shooting    |              1845 |              551 |
-| 8 Shanghai stampede         |              3824 |             3175 |
-| 9 Lee Kuan Yew death        |              2418 |             1534 |
-| 10 AIIB foundation          |              7221 |             3198 |
+      | Event Title                 | #English comments | Chinese comments |
+      |-----------------------------|-------------------|------------------|
+      | 1 MH370 flight accident     |              8608 |             5223 |
+      | 2 ISIS in Iraq              |              6341 |             3263 |
+      | 3 Ebola occurs              |              2974 |             1622 |
+      | 4 Taiwan Crashed Plane      |              6780 |             2648 |
+      | 5 iphone6 publish           |              5837 |             4352 |
+      | 6 Shooting of Michael Brown |             17547 |             3693 |
+      | 7 Charlie Hebdo shooting    |              1845 |              551 |
+      | 8 Shanghai stampede         |              3824 |             3175 |
+      | 9 Lee Kuan Yew death        |              2418 |             1534 |
+      | 10 AIIB foundation          |              7221 |             3198 |
 
 -  We utilize an English-Chinese dictionary from [MDBG](https://www.mdbg.net/chinese/dictionary?page=cc-cedict)
 
@@ -52,7 +52,7 @@ An example of testing the event `MH370 flight accident` is also provided in `run
 
 ## Citation 
 
-If you use this code, please cite our paper:
+If you use this code and data, please cite our paper:
 ```sh
 @InProceedings{shi-EtAl:2016:P16-11,
   author    = {Shi, Bei  and  Lam, Wai  and  Bing, Lidong  and  Xu, Yinqing},
