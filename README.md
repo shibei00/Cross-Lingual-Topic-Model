@@ -14,7 +14,7 @@ Bei Shi, Wai Lam, Lidong Bing and Yinqing Xu. [Detecting Common Discussion Topic
 - There are 10 events in total. Each event includes Engilish train data, English test data, Chinese train data and Chinese test data. Each line represents a document in the event. We remove the punctuations and the stop words. For English comments, we also stem each word to its root form using Porter Stemmer (Porter, 1980). For the Chinese reader comments, we use the Jieba package to segment and remove Chinese stop words.
 - The detail of the data set is shown in the following Table. The number of comments includes both train data and test data.
 
-      | Event Title                 | #English comments | Chinese comments |
+      | Event Title                 | #English comments | #Chinese comments|
       |-----------------------------|-------------------|------------------|
       | 1 MH370 flight accident     |              8608 |             5223 |
       | 2 ISIS in Iraq              |              6341 |             3263 |
