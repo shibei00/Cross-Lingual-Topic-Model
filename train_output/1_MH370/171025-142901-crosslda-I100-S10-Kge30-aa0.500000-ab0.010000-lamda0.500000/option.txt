@@ -1,0 +1,9 @@
+en_input_directory=../../input/1_MH370_en_train
+ch_input_directory=../../input/1_MH370_cn_train
+corpus_name=1_MH370
+training_iterations=100
+snapshot_interval=10
+number_of_topics=30
+alpha_alpha=0.5
+alpha_beta=0.01
+lam=0.500000
