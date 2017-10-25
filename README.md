@@ -48,7 +48,7 @@ We will fit our trained model to the test data of the same event. First, enter i
 
 `python -m model_test --test_en_input=ENGLISH_TESTING_DATA --test_cn_input=CHINESE_TESTING_DATA --dict_input=DICTIONARY  --model_path=MODEL_PATH --corpus_name=CORPUS_NAME --test_iterations=ITERATION_NUMS --output_directory=OUTPUT_DIRECTORY`
 
-An example of testing the event `MH370 flight accident` is also provided in `run_test_mh370.sh`. The test model will output the top words and the perplexity value of the event in the foler `test_output/corpus_name`. 
+An example of testing the event `MH370 flight accident` is also provided in `run_test_mh370.sh`. The test model will output the top words and the perplexity value of the event in the foler `test_output/corpus_name`. The lower the perplexity value (CCP) is, the better the performance is.
 
 ## Citation 
 
