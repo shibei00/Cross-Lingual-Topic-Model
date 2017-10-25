@@ -191,7 +191,7 @@ def main():
             model_snapshot_path = os.path.join(output_directory, 'model-' + str(lda_inferencer._counter));
     r_topic_word = lda_inferencer.export_topic_word()
     model_name = lda_inferencer.__class__.__name__ + '_ge' + str(lda_inferencer._number_of_topics_ge) + '_lamda' + str(lam)
-    output_model_directory = '../../model/'
+    output_model_directory = os.path.join('../../model/', corpus_name)
     if not os.path.exists(output_model_directory):
         os.makedirs(output_model_directory)
     output_model_path = os.path.join(output_model_directory, model_name)
