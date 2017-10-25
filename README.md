@@ -33,7 +33,7 @@ Bei Shi, Wai Lam, Lidong Bing and Yinqing Xu. [Detecting Common Discussion Topic
 
 This section describes the usage of the implementations in command line or terminal.
 
-### Train
+### Training
 
 The source code of train our model is in the folder of `src/train`. Please enter into the folder and run the following command:
 
